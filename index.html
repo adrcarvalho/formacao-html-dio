@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DIO - Formação HTML</title>
+</head>
+<body>
+    
+    <h1>Formação HTML - DIO</h1>
+    <hr>
+        <h1>A estrutura básica do HTML</h1>
+        <p>HTML significa <u>Hyper Text Markup Language</u>. Trata-se, portanto, de uma linguagem de <strong>marcação</strong>, e não programação. Dessa forma, o HTML serve para você indicar para o navegador o que é cada coisa dentro de uma página: um texto, uma tabela; se esse texto está em negrito, itálico etc. E muito mais...</p>
+
+        <p>Iniciamos a criação de um arquivo HTML criando um arquivo chamado "index.html". Nele, inserimos a primeira TAG "html:5", que irá preencher as primeiras informações essenciais para a criação de um site. Nessa tag encontramos o idioma da página, título etc.</p>
+
+        <p>Um documento HTML deve começar e terminar com a tag "html". Após essa tag, inserimos a tag "head", que contém meta informações bem como o título do site (aquele que aparece na aba do navegador). Após, temos a tag "body". TUDO que estiver dentro da tag BODY será visível pelo navegador.</p>
+
+        <p>Ao iniciar o estudo de uma linguagem é interessante também ler a documentação dela, pois é lá que todas as regras e funcionalidades estarão dispostas. No caso do html existe um site para isso.</p>
+
+        <a href="https://www.w3schools.com/html/html_intro.asp" title="Introdução ao HTML" target="_blank"> Introdução ao HTML</a>
+       <br><br>
+        <a href="https://www.alura.com.br/artigos/extensoes-vs-code-descubra-as-mais-usadas" title="Extensões VSCode" target="_blank"> Extensões mais usadas no VSCode</a>
+        <p>No site <a href="https://www.w3schools.com/" title="W3SChools" target="blank"> https://www.w3schools.com/</a> você tem todas as TAGS HTML para consulta.</p>
+        <br>
+    
+    <hr>
+    
+        <h1>Formatando o texto</h1>
+        <p>Algumas tags são importantes para formatarmos corretamente o texto mostrado na página. Algumas delas são o itálico, com a tag < i >. Temos também o <b>negrito</b>, com a tag < b >. Podemos também combinar ambas as tags no mesmo parágrafo.</p>
+        
+        <p>No caso do strong, além de deixar em negrito, é uma tag que pode ser usada posteriormente juntamente com o CSS para aplicar alguma propriedade em todo trecho que conter uma tag "strong"</p>
+
+        <p>Podemos também usar também a tag "span" para marcar trechos.</p>
+
+        <p><blockquote>Essa tag blockquote é usada para citações. Ele dá um espaçamento.</blockquote></p>
+        
+        <p>As tags "sub" e "sup" também são úteis caso você queria colocar algum trecho abaixo da linha base da frase ou no expoente. <sub>Esse é um exemplo de sub</sub>. <sup>E esse é um exemplo de sup.</sup></p>
+        
+        <p><mark>Esse é um exemplo de frase com marca-texto usando a tag "mark"</mark></p>
+
+        <p><small>Esse é um exemplo de frase utilizando a tag "small"</small></p>
+        <br>
+    
+    <hr>
+
+        <h1>Tags sem fechamento</h1>
+        <p>Algumas tags não possuem fechamento, como é o caso da tag "input". Com ela você cria um campo que pode ser inserido algum texto ou número, dependendo do type inserido, isto é, "text" ou "number".</p>
+
+        <input type="text" />
+        <p><input type="number"></p>
+        <p><input type="color"></p>
+        <p>Outra tag que não possui fechamento é a tag de imagem < img > e a tag < br >.</p>
+        <br>
+    
+    <hr>
+
+    <h1>Atributos de tag</h1>
+        <p>Algumas tags possuem alguns atributos para mudar o comportamento dela mesma. Um exemplo é o "type=text" da tag imput. Veja o exemplo abaixo (apenas no código):</p>
+
+        <p><strong id="title">Esse é um título.</strong></p>
+
+        <p>Visualmente, no navegador, não altera em nada, mas futuramente trabalhando com JavaScript, esse atributo vai ser útil para que o JavaScript encontre especificamente aquele elemento.</p>
+        <br>
+
+    <hr>
+
+    <h1>Alterando cor de elementos</h1>
+        <strong style="color:darkred">Esse atributo é de CSS para mudar a cor.</strong>
+
+        <p><strong class="titulo-principal">Esse é um título principal. Isso é útil para alterar, por exemplo, cor de todos os elementos que tiverem a classe de título principal.</strong></p>
+        <br>
+
+    <hr>
+    <h1>Inserindo links</h1>
+        <p>Podemos inserir uma imagem diretamente de um link da internet, como a imagem da guitarra abaixo:</p>
+
+        <p><img width="500" src="https://www.pridemusicshop.com.br/imgs/produtos/gra/10172366.jpg" alt="Foto de uma guitarra Fender Stratocaster na cor sunburst, com escudo branco e braço e headstock de madeira clara."></p>
+
+        <p>Mas também podemos inserir uma imagem que se encontre em um diretório local, na mesma pasta do projeto. Para isso é só digitar após src o nome e extensão da imagem. Você pode adicionar atributos de tamanho, como o width.</p>
+        <br>
+
+    <hr>
+
+    <h1>Tags de títulos e subtítulos</h1>
+        <p>As tags para inserir títulos são marcadas pela letra H. Desde 1 até 6. O 1 é usado apenas para títulos. Veja exemplos abaixo:</p>
+        <p><H1>Este é h1</H1></p>
+        <p><H2>Este é h2</H2></p>
+        <p><h3>Este é h3</h3></p>
+        <p><h4>Este é h4</h4></p>
+        <p><h5>Este é h5</h5></p>
+        <p><h6>Este é h6</h6></p>
+
+        <p>O navegador separa os Hs com espaçamentos/margens padrão, mesmo sem você ter definido isso. Isso pode ser alterado posteriormente com CSS.</p>
+        <br>
+
+    <hr>
+
+        <h1>Listas Ordenadas e Não Ordenadas</h1>
+        <h2>Listas Ordenadas</h2>
+        <p>Para essas listas você precisa usar uma tag secundária chamada LI, para listar os items dessa lista. Se você apenas escrever os itens como texto comum, não irá funcionar. Já para fazer uma lista ORDENADA, a tag é a "ul"</p>
+        <p>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ol>
+        </p>
+        <br>    
+<hr>
+
+        <h1>Links</h1>
+        <p>Para links usamos a tag anchor "a". O target <i>self</i> abrirá o link na mesma página. O target <i>blank</i> irá abrir em uma aba nova.</p>
+        <ul>
+            <li>
+                <a href="http://dio.me" title="Clique aqui e confira" target="blank">Dio.me</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/adrcarvalho93/" title="Confira meu LinkedIn" target="blank">Meu LinkedIn</a>
+            </li>
+        </ul>
+        <br>
+
+<hr>
+
+        <h1>Dicas</h1>
+        <p>Uma dica na hora de implementar um design, por exemplo, vindo do Figma é analisar o design da esquerda para direita, de cima para baixo.</p>
+
+        <p>Comece elencando todos os elementos que tem: um título, um subtítulo, um texto menor, dois botões, uma imagem etc.</p>
+        <br>
+
+</body>
+</html>
